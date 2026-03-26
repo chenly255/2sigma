@@ -105,21 +105,24 @@ Pick up where you left off, anytime. Your progress never gets lost.
 
 ## Install
 
-### Claude Code
+#### Claude Code
 
-Open Claude Code and say:
+```bash
+git clone https://github.com/chenly255/2sigma.git ~/.claude/skills/2sigma
+```
 
-> **"Help me install the 2sigma skill from `https://github.com/chenly255/2sigma`. Clone it to `~/.claude/skills/2sigma/`."**
+#### Codex
 
-### Codex
+```bash
+git clone https://github.com/chenly255/2sigma.git ~/.codex/skills/2sigma
+```
 
-Open Codex and say:
+#### Other agents (Trae, etc.)
 
-> **"Clone `https://github.com/chenly255/2sigma` to `~/.codex/skills/2sigma/`."**
-
-### Other agents (Trae, etc.)
-
-Copy `SKILL.md` and `references/` to wherever your agent reads skill files. No platform-specific tools — works with any agent that can read/write files.
+```bash
+git clone https://github.com/chenly255/2sigma.git
+# Copy SKILL.md and references/ to wherever your agent reads skill files
+```
 
 ### PDF support (optional)
 
@@ -164,8 +167,6 @@ Want to add a new learning mode? See [references/extending.md](references/extend
 ## Author
 
 **Liying Chen** — PhD student @ [Sun Yat-sen University](https://www.sysu.edu.cn/) & [Guangzhou National Laboratory](https://www.gzlab.ac.cn/)
-
-Advised by [Prof. Luyi Tian](https://scholar.google.com.au/citations?user=6G0fn6QAAAAJ&hl=en)
 
 ## License
 
