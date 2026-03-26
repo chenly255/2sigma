@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .venv/
 docs/image-prompts.md
+docs/xiaohongshu/
