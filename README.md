@@ -87,6 +87,16 @@ Most AI "tutors" ask you to recite what you just read. That's useless.
 
 The AI evaluates your **overall comprehension**, not individual answers. Small mistakes get corrected and you move on. Fundamental misunderstandings trigger a re-teach from a different angle.
 
+### Your Knowledge Tree
+
+2sigma builds a **knowledge tree** as you learn. You always know exactly where you are:
+
+- **Green nodes** = mastered topics (you've proven you understand them)
+- **Coral node** = what you're learning right now
+- **Gray dashed nodes** = upcoming topics (locked until prerequisites are done)
+
+Pick up where you left off, anytime. Your progress never gets lost.
+
 <p align="center">
   <img src="docs/images/progress-tree.png" alt="Knowledge tree" width="500"/>
 </p>
