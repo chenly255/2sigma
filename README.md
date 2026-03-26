@@ -107,11 +107,23 @@ Pick up where you left off, anytime. Your progress never gets lost.
 
 #### Claude Code
 
+Or just tell Claude Code:
+
+> Help me clone `https://github.com/chenly255/2sigma` to `~/.claude/skills/2sigma/`
+
+Or run it yourself:
+
 ```bash
 git clone https://github.com/chenly255/2sigma.git ~/.claude/skills/2sigma
 ```
 
 #### Codex
+
+Tell Codex:
+
+> Clone `https://github.com/chenly255/2sigma` to `~/.codex/skills/2sigma/`
+
+Or run it yourself:
 
 ```bash
 git clone https://github.com/chenly255/2sigma.git ~/.codex/skills/2sigma
